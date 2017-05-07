@@ -25,8 +25,8 @@ version = "${config.version.minecraft}-${modVersion}"
 group= "com.dave.compactmachines" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "compactmachines"
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 minecraft {
     version = "${config.version.minecraft}-${config.version.forge}-${config.version.minecraft}"
